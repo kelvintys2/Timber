@@ -5,11 +5,9 @@ GEM
     diff-lcs (1.2.5)
     htmlentities (4.3.3)
     method_source (0.8.2)
-    mini_portile2 (2.1.0)
-    nokogiri (1.6.8)
-      mini_portile2 (~> 2.1.0)
-      pkg-config (~> 1.1.7)
-    pkg-config (1.1.7)
+    mini_portile2 (2.4.0)
+    nokogiri (1.10.5)
+      mini_portile2 (~> 2.4.0)
     pry (0.10.1)
       coderay (~> 1.1.0)
       method_source (~> 0.8.1)
@@ -34,9 +32,9 @@ PLATFORMS
 
 DEPENDENCIES
   htmlentities
-  nokogiri
+  nokogiri (>= 1.10.5)
   pry
   rspec
 
 BUNDLED WITH
-   1.12.5
+   1.17.3
